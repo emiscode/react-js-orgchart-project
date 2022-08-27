@@ -4,6 +4,8 @@
 
 stronger together!
 
+- Project created to study React with JavaScript!
+
 ## Available Scripts
 
 In the project directory, you can run:
