@@ -1,14 +1,14 @@
 import "./TeamMember.css";
 
-const TeamMember = () => {
+const TeamMember = ({ name, picture, position }) => {
   return (
     <div>
       <div>
-        <img src="https://github.com/emiscode.png" alt="Github profile" />
+        <img src={picture} alt={name} />
       </div>
       <div>
-        <h4>Emilio Scodeler</h4>
-        <h5>Software Engineer</h5>
+        <h4>{name}</h4>
+        <h5>{position}</h5>
       </div>
     </div>
   );
