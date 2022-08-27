@@ -1,9 +1,9 @@
 import "./TeamMember.css";
 
-const TeamMember = ({ name, picture, position }) => {
+const TeamMember = ({ name, picture, position, backgroundColor }) => {
   return (
     <div className="teamMember">
-      <div className="header">
+      <div className="header" style={{ backgroundColor }}>
         <img src={picture} alt={name} />
       </div>
       <div className="footer">

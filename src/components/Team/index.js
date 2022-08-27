@@ -16,6 +16,7 @@ const Team = (props) => {
               name={teamMember.name}
               picture={teamMember.picture}
               position={teamMember.position}
+              backgroundColor={props.primaryColor}
             />
           ))}
         </div>
