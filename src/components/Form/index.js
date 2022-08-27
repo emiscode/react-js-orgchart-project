@@ -13,6 +13,10 @@ const Form = (props) => {
   const saveForm = (event) => {
     event.preventDefault();
     props.onSaveTeamMember({ name, position, picture, team });
+    setName("");
+    setPicture("");
+    setPosition("");
+    setTeam(props.team[0]);
   };
 
   return (
